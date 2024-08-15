@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_selected_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Day: " />
+
+    <EditText
+        android:id="@+id/edit_text_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="News Title" />
+
+    <EditText
+        android:id="@+id/edit_text_news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="News Content"
+        android:minLines="5"
+        android:gravity="top|start"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_upload_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload News" />
+
+</LinearLayout>

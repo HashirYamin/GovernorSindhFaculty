@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GovernorSindhFaculty</string>
+    <string name="double_tap_to_select_files">Double tap to select Lecture files</string>
+    <string name="upload_file">Upload Lecture</string>
+    <string name="upload_link_txt">Upload Link</string>
+    <string name="paste_link_here">Paste Link here</string>
+    <string name="enter_description_of_link_string">Enter Description of Link</string>
+    <string name="upload_vedio_link_string">Upload Vedio Link</string>
+</resources>
